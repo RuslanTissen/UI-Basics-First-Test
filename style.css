@@ -3,9 +3,15 @@ body {
     margin: 8px;
 }
 header {
-    background-color: cyan;
+    background-color: rgba(16, 247, 247, .5);
     width: 100%;
     text-align: center;
+    position: fixed;
+    top: 0;
+}
+.list{
+    margin-top: 140px;
+    
 }
 h1 {
     display: block;
@@ -38,13 +44,8 @@ footer li a:visited{
 footer li a:hover{
     color:red; 
 }
-.box-model p:only-of-type{
+.box-model{
     padding: 5px;
-    margin: 10%;
-
+margin: 10%;
 }
-.box-model img:only-of-type{
-    padding: 5px;
-    margin: 10%;
 
-}
