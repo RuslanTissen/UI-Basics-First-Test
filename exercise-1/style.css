@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    width: 1440px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-one {
+    width: 100%;
+    height: 900px;
+    background-image: url(./emages/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(204, 219, 224);
+}
+
+.page-one img {
+    position: relative;
+    left: 0;
+    margin: 50px 0 0 60px;
+}
+
+.page-one a:nth-child(2) {
+    width: 200px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: -90px;
+    left: 1200px;
+    margin: 50px 25px 0 0;
+    border-radius: 60px;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    color: black;
+    display: block;
+    line-height: 55px;
+}
+
+.title a {
+    width: 300px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    font-size: .8rem;
+    margin: 50px 25px 0 0;
+    border-radius: 60px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+    display: block;
+    line-height: 55px;
+}
+
+.title {
+    width: 30%;
+    margin: 60px;
+    display: inline-block;
+}
+
+h2 {
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mockup {
+    width: 50%;
+    height: 500px;
+    background-image: url(./emages/illustration-mockups.svg);
+    background-size: cover;
+    display: inline-block;
+    background-repeat: none;
+}
